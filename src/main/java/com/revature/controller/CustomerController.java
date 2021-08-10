@@ -27,4 +27,8 @@ public class CustomerController {
 	public String hello() {
 		return "Heloooo Syed suleman";
 	}
+	@GetMapping("/hello1")
+	public String hello1() {
+		return "Heloooo jenkins";
+	}
 }
