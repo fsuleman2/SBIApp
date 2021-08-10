@@ -23,4 +23,8 @@ public class CustomerController {
 	public List<Customer> getCustomer() {
 		return Arrays.asList(new Customer(100, "rajesh"),new Customer(101, "vijay"));
 	}
+	@GetMapping("/hello")
+	public String hello() {
+		return "Heloooo suleman";
+	}
 }
